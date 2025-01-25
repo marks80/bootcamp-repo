@@ -1,5 +1,5 @@
 Bash Scripting Tasks: What I Learned
-This repository contains eight Bash scripts developed as solutions to various scripting tasks designed to enhance my understanding of key Bash programming concepts. Below is a summary of the skills and knowledge I gained while completing these tasks:
+This repository contains 12 Bash scripts developed as solutions to various scripting tasks designed to enhance my understanding of key Bash programming concepts. Below is a summary of the skills and knowledge I gained while completing these tasks:
 
 Key Learnings:
 Directory Management and Conditional Logic
