@@ -32,7 +32,7 @@ Technologies and Tools Used:
 Bash scripting
 Commands: du, realpath, find, stat, grep, cp
 Shell variables, loops, and conditional structures
-Debugging and error handling techniques
+Debugging and error handling techniques.
 
 
 
