@@ -1,0 +1,27 @@
+---
+- hosts: localhost
+  become: yes
+
+  vars:
+    name: "Marks Saulevics"
+    module_name: "automation with Ansible"
+    technologies_learned: "Jinja2, YAML, Ansible Playbooks"
+
+  tasks:
+    - name: Update webpage from a template
+      template:
+        src: template.j2
+        dest: /var/www/html/index.nginx-debian.html
+        owner: ubuntu
+        group: ubuntu
+        mode: 0774
+
+    - name: Get my public IP address
+      uri:
+        url: "http://checkip.amazonaws.com"
+        return_content: true
+      register: my_public_ip
+
+    - name: Output message
+      debug:
+        msg: "Open http://{{ my_public_ip.content | trim }} in your browser and enjoy the bootcamp experience!"
