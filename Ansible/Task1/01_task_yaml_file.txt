@@ -1,0 +1,25 @@
+- name: dictionary
+  hosts: localhost
+  gather_facts: no
+
+  vars_prompt:
+    - name: secret
+      prompt: "Input secret"
+      private: yes
+
+  vars:
+    personal_info:
+      name: "Marks"
+      surname: "Saulevics"
+      github_username: "marks80"
+      secret: "{{ secret }}"
+      favorite_modules:
+        - "ansible"
+        - "python"
+        - "security"
+
+  tasks:
+    - name: display dictionary
+      debug:
+        var: personal_info
+      no_log: true  # This hides the secret from being displayed
