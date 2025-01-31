@@ -1,0 +1,8 @@
+---
+- name: execute bootcamp
+  hosts: localhost
+  become: yes
+
+  roles:
+    - bootcamp
+
