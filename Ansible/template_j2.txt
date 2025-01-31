@@ -1,0 +1,6 @@
+Hello, my name is {{ name }}.
+
+I am currently learning {{ module_name }} and have gained knowledge in {{ technologies_learned }}.
+
+This bootcamp is an amazing experience, and I am excited to apply my new skills!
+
