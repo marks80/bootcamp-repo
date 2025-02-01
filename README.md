@@ -7,6 +7,4 @@ Badges Earned
 
 Throughout the bootcamp, I earned several badges for completing modules and demonstrating proficiency in key areas. 
 
-
-https://github.com/marks80/bootcamp-repo/blob/master/aws-cloud-quest-cloud-practitioner.png?raw=true
-
+[![AWS Cloud Quest: Cloud Practitioner](https://github.com/marks80/bootcamp-repo/blob/master/aws-cloud-quest-cloud-practitioner.png?raw=true)](https://www.credly.com/badges/9dbcd225-7dc6-4465-af44-0d7de72d4a1b/public_url)
