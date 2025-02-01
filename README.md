@@ -4,6 +4,7 @@ This repository serves as an archive for my homework, labwork, and badges earned
 During the bootcamp, I gained hands-on experience with industry-leading tools and technologies, including AWS, Snowflake, Docker, Kubernetes, Terraform, Python, Git, and more. This repository organizes my work into modules, reflecting the topics covered during the program.
 
 Badges Earned
+
 Throughout the bootcamp, I earned several badges for completing modules and demonstrating proficiency in key areas. 
 
-
+[![AWS Cloud Quest: Cloud Practitioner](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/aws-cloud-quest-cloud-practitioner.png)](https://www.credly.com/badges/9dbcd225-7dc6-4465-af44-0d7de72d4a1b/public_url)
