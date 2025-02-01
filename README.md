@@ -8,3 +8,5 @@ Badges Earned
 Throughout the bootcamp, I earned several badges for completing modules and demonstrating proficiency in key areas. 
 
 
+https://github.com/marks80/bootcamp-repo/blob/master/aws-cloud-quest-cloud-practitioner.png?raw=true
+
