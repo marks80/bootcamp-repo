@@ -38,19 +38,7 @@ jobs:
 
         run: |
 
-          cd src
+          cd Github_actions/src
 
           python -m pytest addition.py
- 
-#testing
-
-def add(a, b):
-
-  return a + b
- 
-def test_add():
-
-  assert add(1, 2) == 3
-
-  assert add(1, -1) == 0
  
