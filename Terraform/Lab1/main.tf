@@ -29,7 +29,7 @@ provider "aws" {
 # -------------------
 resource "aws_instance" "app_server" {
   # The AMI (Amazon Machine Image) to use for the instance
-  # ami-09a9858973b288bdd is typically an Amazon Linux or Ubuntu image (depends on region)
+  # ami-09a9858973b288bdd is Ubuntu image
   ami           = "ami-09a9858973b288bdd"
 
   # The EC2 instance type (t3.micro is small and cost-effective)
